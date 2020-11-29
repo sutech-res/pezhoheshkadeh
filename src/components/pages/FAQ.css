@@ -1,0 +1,21 @@
+.FAQ_frame,
+.FAQ_frame h3,
+.FAQ_frame p {
+  transition: all 0.3s;
+}
+
+.FAQ_frame:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.FAQ_frame:hover h3,
+.FAQ_frame:hover p {
+  cursor: pointer;
+  color: #0099ff !important;
+  transition: all 0.3s;
+}
+
+.FAQ_frame:hover h3 {
+  border-bottom: white !important;
+}
